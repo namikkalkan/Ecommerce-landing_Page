@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--  first div (header) was for navbar+rent now+ side image, second big div is categories   -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent it Mate</title>
+    <link rel="stylesheet" href="style.css">
+    <!--  this  comes from google.fonts    -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <!--  this is for star sign    -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<!-- navbar + rent now... + side img   -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitems" >
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Categories</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img class="menu-icon" src="images/menu.png" onclick="menutoggle()" width="30px" height="30px">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Rent now,<br> start your adventure</h1>
+                    <p>Easiest way of experiencing products. <br>No need for paying all </p>
+                    <a href="" class="btn"> Let's list an item &#x2794; </a>
+
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- categories   -->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="">
+                </div>
+                 <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                 <div class="col-3">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- featured    -->
+<!-- for star item font awesome 4 cdn - bootstrap copy url paste it head section then fontawsomeicons.com dan iconu bul  -->
+    <div class="small-container">
+        <h2 class="title ">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Kayaking Boat</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" ></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Kayaking Boat</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Kayaking Boat</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+                <h4>Kayaking Boat</h4>
+                <div class="rating">
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half" ></i>
+                </div>
+                <p>$10.00</p>
+            </div>
+        </div>
+    </div>
+
+<!-- offer     -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" class="offer-img" alt="">
+                </div>
+                <div class="col-2">
+                    <p> Most chosen ones </p>
+                    <h1>bla bla product</h1>
+                    <small>manyak bisey oldu bu alan harbiden bak </small>
+                    <a class="btn" href="">Check out &#x2794;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- testimonial     -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p> Tah is aawsome mattee</p>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half" ></i>
+                    </div>
+                    <img src="images/user-1.png" alt="">
+                    <h3> Melbourne  City</h3>
+                </div>
+                <div class="col-3">
+                    <p> Tah is aawsome mattee</p>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half" ></i>
+                    </div>
+                    <img src="images/user-2.png" alt="">
+                    <h3> Brisbane  City</h3>
+                </div>
+                <div class="col-3">
+                    <p> Tah is aawsome mattee</p>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half" ></i>
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3> Sydney  City</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- brand logos     -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- footer     -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download </h3>
+                    <p>Our app will be available soon </p>
+                </div>
+                 <div class="footer-col-2">
+                     <img src="images/logo-white.png" alt="">
+                     <p>We take responsibility for less  consumint </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links </h3>
+                    <ul>
+                        <li>About us</li>
+                        <li>Campaign</li>
+                        <li>Contact</li>
+                        <li>Get discount</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> Copyright 2022 - Rent It Mate</p>
+        </div>
+    </div>
+
+    <!-- toggle menu     -->
+    <script>
+        var menu = document.getElementById('menuitems');
+        menu.style.maxHeight == '0px';
+
+        function menutoggle(){
+
+            if (menu.style.maxHeight == '0px') {
+                menu.style.maxHeight = '200px';
+                }
+            else {
+                menu.style.maxHeight = '0px';
+            }
+         }
+
+
+
+
+
+    </script>
+
+
+</body>
+</html>
